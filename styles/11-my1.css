@@ -1,0 +1,68 @@
+.container,.container-heading{
+  display:grid;
+  grid-template-columns: 200px 150px 70px;
+  gap:12px;
+  padding-top: 10px;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.823);
+  color:white;
+}
+
+.add-button{
+  background-color: rgb(37, 240, 37);
+}
+
+
+.delete-button{
+  background-color: rgb(255, 0, 0);
+}
+
+.button{
+  height:30px;
+  border:0px;
+}
+
+.main-container{
+  display:flex;
+  justify-content: center;
+}
+
+
+.heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem; 
+  font-weight: 700; 
+  color: #6d28d9; /* Rich purple color */
+  text-align: center; 
+  letter-spacing: 1px; /* Slight spacing for style */
+  line-height: 1.2; /* Adjust spacing between lines */
+  text-transform: capitalize; /* Stylish capitalization */
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  background: linear-gradient(45deg, #ff7eb3, #6d28d9, #8e44ad); /* Gradient background */
+  -webkit-background-clip: text; /* Clip gradient to text */
+  -webkit-text-fill-color: transparent; /* Transparent fill for gradient */
+  margin: 20px auto; /* Add spacing and center the block */
+  border-radius: 10px; /* Slight curvature for style */
+}
+
+
+/* Hover Effect */
+.heading:hover {
+ 
+  text-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+.flexbox{
+  display: flex;
+  
+}
+
+/* body {
+
+  padding: 0;
+  margin:0px;
+} */
+
